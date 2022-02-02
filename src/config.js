@@ -17,16 +17,5 @@ export const AppConfig = {
   apiUrl: API_URL
 };
 
-export const AuthConfig = {
-  anonState: '/auth',
-  authState: '/',
-  login: {
-    form: 'user/login'
-  },
-  register: {
-    form: 'user/register'
-  }
-};
-
 Formio.setProjectUrl(AppConfig.projectUrl);
 Formio.setBaseUrl(AppConfig.apiUrl);

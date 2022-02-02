@@ -7,15 +7,12 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './config';
-import { AuthProvider } from './modules/auth';
 
 ReactDOM.render(
   <React.StrictMode>
-    <AuthProvider>
       <Router>
         <App />
       </Router>
-    </AuthProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
